@@ -1,0 +1,20 @@
+Industry,MedianDiffMedianHourlyPercent,NumberOfCompanies,Color,Link
+Accommodation and Food,0.3,490,#F3C300,accommodation-food
+Administrative Services,5.0,1165,#875692,administrative
+"Agriculture, Forestry and Fishing",4.1,33,#C2B280,agriculture
+Arts and Entertainment,5.1,251,#A1CAF1,arts-entertainment
+Construction,24.2,306,#BE0032,construction
+Education,21.0,1484,#F38400,education
+Energy Supply,14.4,61,#848482,energy
+Finance and Insurance,23.0,500,#008856,finance-insurance
+Health and Social Work,2.7,1122,#E68FAC,health-social-work
+Information and Communication,16.8,516,#0067A5,information-communication
+Manufacturing,7.8,1346,#F99379,manufacturing
+Mining and Quarrying,20.45,26,#654522,mining
+Other Services,6.4,228,#B3446C,other-services
+Professional Services,16.1,876,#DCD300,professional-services
+Public Administration,5.5,543,#882D17,public-administration
+Real Estate,8.8,131,#2B3D26,real-estate
+Transportation and Storage,5.8,401,#604E97,transportation-storage
+Water and Waste Management,6.25,80,#E25822,water-waste-management
+Wholesale and Retail Trade,6.0,930,#8DB600,wholesale-retail-trade

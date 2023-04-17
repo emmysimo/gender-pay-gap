@@ -1,0 +1,193 @@
+/* /* Body
+============================ */
+body {
+	background-color: #f2f2f2;
+  }
+
+/* Style the main title */
+h1 {
+	font-size: 38px;
+	font-family: 'Helvetica Neue', sans-serif;
+	color: #434343;
+	text-align: center;
+	margin-bottom: 00px;
+	margin-top:0px;
+	line-height: 1.2;
+}
+/* Style the sub heading */
+h2 {
+	font-size: 18px;
+	font-family: 'Helvetica Neue', sans-serif;
+	color: #434343;
+	text-align: center;
+	margin-top:0px;
+	margin-bottom: 20px;
+	line-height: 1.2;
+}
+/* Style the home button */
+.back-button{
+	margin-left: 20px;
+	font-size: 12px;
+	font-family: 'Helvetica Neue', sans-serif;
+	border: none;
+	background-color: none;
+	text-decoration: underline;
+	color: #434343;
+	cursor: pointer;
+
+}
+/* /* Footer
+============================ */
+footer {
+	background-color: #f2f2f2;
+	padding: 5px;
+	font-size: 10px;
+	color: #999;
+	position: absolute;
+	bottom: 0;
+  }
+  
+  .footer-text {
+	font-family: 'Helvetica Neue', sans-serif;
+	margin-bottom: 0px;
+	margin-top: 0px;
+  }
+  /* Style the link to the data source */
+  .footer-link{
+	font-family: 'Helvetica Neue', sans-serif;
+	margin-bottom: 0px;
+	margin-top: 5px;
+	color: #999;
+	text-decoration: none;
+  }
+  .footer-link a{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	color: #999;
+	text-decoration: none;
+  }
+  
+  .footer-link a:hover {
+	color: #666;
+  }
+  
+/* /* X Axis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+============================ */
+.x.axis.bottom .tick line {
+	stroke: #ccc;
+	stroke-width: 1px;
+}
+
+/* Style the x-axis tick labels */
+.x.axis.bottom .tick text {
+	fill: #666;
+	font-size: 12px;
+	font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* Style the x-axis title */
+.x.axis.bottom .axistitle {
+	fill: #666;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* Style the vertical line */
+line.vertical {
+	stroke: black;
+	stroke-width: 2px;
+	stroke-dasharray: 5,5;
+}
+
+
+/* /* /* Tooltip
+============================ */
+
+/* Style the tooltip event listener  */
+div.tooltip {
+	position: absolute;
+	text-align: center;
+	font: 12px sans-serif;
+	background: white;
+	z-index: 99;
+} 
+
+
+
+/* /* /* Legend
+============================ */
+
+#legend {
+	float: left;
+	max-width: 600px;
+	border: 2px;
+	fill: #666;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: 'Helvetica Neue', sans-serif;
+}
+
+#legend text.leglabel {
+	font-size: .7rem;
+	text-anchor: middle;
+
+}
+#legend circle.ind {
+	fill: none;
+	stroke: #ccc;
+} 
+
+div.tooltip {
+	position: absolute;
+	text-align: center;
+	font: 12px sans-serif;
+	background: white;
+	/* pointer-events: none; */
+	z-index: 99;
+} 
+
+
+/* /* Search box
+============================ */
+#search-box {
+	padding: 10x;
+	border: 1px solid #ccc;
+	border-radius: 100px;
+	width: 200px;
+	height:18px;
+	text-align: center;
+	margin: auto;
+	display: block; 
+}
+/* style the dropdown list for the search bar */
+#dropdown-list {
+	position: absolute;
+	font-size: 10px;
+	font-family: 'Helvetica Neue', sans-serif;
+	background-color: white;
+	max-height: 200px;
+	overflow-y: auto;
+	width: 200px;
+	display: block; 
+	width: 200px;
+	margin: 0 auto; 
+	left: 0;
+	right: 0;
+	
+}
+
+.dropdown-option {
+	padding: 2px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.dropdown-option:hover {
+	background-color: #e8e8e8;
+}
+
+.dropdown-message {
+	padding: 3px;
+	color: gray;
+}

@@ -1,0 +1,347 @@
+/* /* Body
+============================ */
+body {
+	background-color: #f2f2f2;
+  }
+
+/* Style the main title */
+h1 {
+	font-size: 38px;
+	font-family: 'Helvetica Neue', sans-serif;
+	color: #434343;
+	text-align: center;
+	margin-bottom: 00px;
+	margin-top:0px;
+	line-height: 1.2;
+}
+/* Style the sub heading */
+h2 {
+	font-size: 18px;
+	font-family: 'Helvetica Neue', sans-serif;
+	color: #434343;
+	text-align: center;
+	margin-top:0px;
+	margin-bottom: 20px;
+	line-height: 1.2;
+}
+/* Style the home button */
+.back-button{
+	margin-left: 20px;
+	font-size: 12px;
+	font-family: 'Helvetica Neue', sans-serif;
+	border: none;
+	background-color: none;
+	text-decoration: underline;
+	color: #434343;
+	cursor: pointer;
+
+}
+/* /* Footer
+============================ */
+footer {
+	background-color: #f2f2f2;
+	padding: 5px;
+	font-size: 10px;
+	color: #999;
+	position: absolute;
+	bottom: 0;
+  }
+  
+  .footer-text {
+	font-family: 'Helvetica Neue', sans-serif;
+	margin-bottom: 0px;
+	margin-top: 0px;
+  }
+  /* Style the link to the data source */
+  .footer-link{
+	font-family: 'Helvetica Neue', sans-serif;
+	margin-bottom: 0px;
+	margin-top: 5px;
+	color: #999;
+	text-decoration: none;
+  }
+  .footer-link a{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	color: #999;
+	text-decoration: none;
+  }
+  
+  .footer-link a:hover {
+	color: #666;
+  }
+  
+/* /* X Axis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+============================ */
+.x.axis.bottom .tick line {
+	stroke: #ccc;
+	stroke-width: 1px;
+}
+
+/* Style the x-axis tick labels */
+.x.axis.bottom .tick text {
+	fill: #666;
+	font-size: 12px;
+	font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* Style the x-axis title */
+.x.axis.bottom .axistitle {
+	fill: #666;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* Style the vertical line */
+line.vertical {
+	stroke: black;
+	stroke-width: 2px;
+	stroke-dasharray: 5,5;
+}
+
+
+/* /* /* Tooltip
+============================ */
+
+/* Style the tooltip event listener  */
+div.tooltip {
+	position: absolute;
+	text-align: center;
+	font: 12px sans-serif;
+	background: white;
+	z-index: 99;
+} 
+
+/* /* Info
+============================ */
+.info {
+	font-family: 'Helvetica Neue', sans-serif;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	color: #333;
+	box-shadow: 10px 10px 20px #999;
+	padding: 8px;
+	border-radius: 10px; 
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	flex-direction: column;
+}
+/* Style the selected circle*/
+circle.selected {
+	stroke: black;
+	stroke-width: 2px;
+}
+.shadow {
+	filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.5));
+}
+
+/* Style the info pop up title */
+.info h3 {
+	text-align: center;
+	text-shadow: 1px 1px 1px #ccc;
+	margin-bottom:0px;
+	margin-top:2px;
+
+}
+/* Style the employer size */
+
+.info h4 {
+	margin-top:2px;
+	text-align: center;
+	font-size: 10px;
+}
+/* Style the context £ info */
+.info h5 {
+	margin-top:8px;
+	font-size: 10px;
+	margin-bottom:25px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.box-container {
+	display: flex;
+}	
+/* Style the median and mean boxes */
+.box {
+	color: white;
+	font-size: 10px;
+	padding:10px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 10px;
+	line-height: 1; 
+	margin-left: 15px; 
+	margin-right: 15px; 
+}
+.value {
+	font-size: 20px;
+}
+/* Style the title for the percentage quartiles */
+.small-header {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	margin-top: 18px;
+	font-weight: bold;
+	font-size: 10px;
+	margin-bottom: 8px;
+
+}
+/* Style the bar charts */
+.bar-wrapper {
+	border-radius: 10px; 
+	display: inline-block;
+	width: 150px;
+	height: 15px;
+	border: 1px solid #ccc;
+	margin-left: 30px;
+	position: relative;
+} 
+/* Style the bar chart labels */
+
+.bar-label {
+	position: absolute;
+	font-size: 12px;
+	left: -30px;
+	top: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* Style the bar charts */
+
+.bar-fill {
+	background-color:#9c9c9c;
+	border-radius: 10px; 
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	color:lightgrey;
+}
+/* Style the bar percentage labels */
+
+.bar-percentage {
+	position: absolute;
+	color: black;
+	font-size: 10px;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 8px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+/* Style the bonus pay information */
+.bonus-info {
+	font-size: 10px;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 12px;
+	
+
+  }
+.bonusbox {
+	background-color: #4c4c4c;
+	color: white;
+	font-size: 10px;
+	padding:10px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 50px; 
+	line-height: 1; 
+	margin-left: 15px; 
+	margin-right: 15px; 
+	}
+	/* Style the actions for the close button */
+ a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+	  cursor: pointer;
+	  	color: #444;
+		text-decoration: underline;
+
+ }
+/* Style the link the companys website */
+.companylink {
+	font-size: 10px;
+	margin-top:10px;
+	text-align: center;
+	color: #333;
+	}
+
+/* /* Search box
+============================ */
+#search-box {
+	padding: 10x;
+	border: 1px solid #ccc;
+	border-radius: 100px;
+	width: 200px;
+	height:18px;
+	text-align: center;
+	margin: auto;
+	display: block; 
+}
+/* style the dropdown list for the search bar */
+#dropdown-list {
+	position: absolute;
+	font-size: 10px;
+	font-family: 'Helvetica Neue', sans-serif;
+	background-color: white;
+	max-height: 200px;
+	overflow-y: auto;
+	width: 200px;
+	display: block; 
+	width: 200px;
+	margin: 0 auto; 
+	left: 0;
+	right: 0;
+	
+}
+
+.dropdown-option {
+	padding: 2px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.dropdown-option:hover {
+	background-color: #e8e8e8;
+}
+
+.dropdown-message {
+	padding: 3px;
+	color: gray;
+}
+
+/* /* Close button for info pop up
+============================ */
+.close-button {
+	position: absolute;
+	color: #999;
+	top: 3px;
+	right: 3px;
+	border: none;
+	background-color: transparent;
+	font-size: 10px;
+	font-weight: bold;
+	cursor: pointer;
+  }
+  
+  .close-button:hover {
+	color: grey;
+  }
